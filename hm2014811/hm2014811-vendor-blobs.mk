@@ -205,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
 endif
