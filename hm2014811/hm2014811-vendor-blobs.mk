@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/hm2014811/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
@@ -145,6 +146,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -161,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/xiaomi/hm2014811/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -206,6 +214,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
-    vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 endif
