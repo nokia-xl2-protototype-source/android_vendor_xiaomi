@@ -225,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
 endif
