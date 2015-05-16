@@ -30,8 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/xiaomi/hm2014811/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/hm2014811/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
@@ -196,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/xiaomi/hm2014811/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -360,5 +357,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/xiaomi/hm2014811/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+    vendor/xiaomi/hm2014811/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/xiaomi/hm2014811/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+    vendor/xiaomi/hm2014811/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/hm2014811/proprietary/bin/cnd:system/bin/cnd \
+    vendor/xiaomi/hm2014811/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/xiaomi/hm2014811/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/xiaomi/hm2014811/proprietary/bin/audiod:system/bin/audiod \
+    vendor/xiaomi/hm2014811/proprietary/bin/SensorCali:system/bin/SensorCali \
+    vendor/xiaomi/hm2014811/proprietary/bin/coloradjust:system/bin/coloradjust
 endif
