@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,23 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
     TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
+    libqct_resampler \
+    libmm-abl
+
+PRODUCT_PACKAGES += \
+    gps.default \
+    libgps.utils \
+    libloc_core \
+    libloc_eng
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \

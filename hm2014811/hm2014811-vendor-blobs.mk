@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -124,12 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/xiaomi/hm2014811/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/hm2014811/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/xiaomi/hm2014811/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -154,6 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -164,6 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -174,16 +172,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/xiaomi/hm2014811/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/xiaomi/hm2014811/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -204,8 +196,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/xiaomi/hm2014811/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/hm2014811/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/xiaomi/hm2014811/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/hm2014811/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/hm2014811/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/xiaomi/hm2014811/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/xiaomi/hm2014811/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/hm2014811/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -229,7 +224,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
 endif
