@@ -132,6 +132,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/hm2014811/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/xiaomi/hm2014811/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/xiaomi/hm2014811/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/hm2014811/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/xiaomi/hm2014811/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/hm2014811/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -193,6 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/xiaomi/hm2014811/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -221,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/hm2014811/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/hm2014811/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
