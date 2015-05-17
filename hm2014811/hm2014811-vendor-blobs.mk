@@ -247,6 +247,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/ice40-hcd.ko:system/lib/modules/ice40-hcd.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/mcDrvModule.ko:system/lib/modules/mcDrvModule.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/mcKernelApi.ko:system/lib/modules/mcKernelApi.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_bt.so:system/vendor/lib/mmi_bt.so \
@@ -362,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/xiaomi/hm2014811/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/xiaomi/hm2014811/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/hm2014811/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/hm2014811/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/hm2014811/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/hm2014811/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
