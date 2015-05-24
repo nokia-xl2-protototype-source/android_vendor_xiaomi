@@ -132,12 +132,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/hm2014811/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/xiaomi/hm2014811/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/hm2014811/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/xiaomi/hm2014811/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \

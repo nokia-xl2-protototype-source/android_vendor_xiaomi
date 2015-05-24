@@ -32,10 +32,14 @@ PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    gps.default \
+    gps.msm8916 \
     libgps.utils \
     libloc_core \
     libloc_eng
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
