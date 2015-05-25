@@ -137,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/hm2014811/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/xiaomi/hm2014811/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
