@@ -180,9 +180,6 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:system/vendor/lib/libmmcamera_ov2680_skuhf.so \
@@ -226,15 +223,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_snapshot.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libchromatix_ov8865_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_sunny_video_hd.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_sunny_zsl.so \
-    vendor/xiaomi/hm2014811/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/xiaomi/hm2014811/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/xiaomi/hm2014811/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/xiaomi/hm2014811/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    vendor/xiaomi/hm2014811/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/xiaomi/hm2014811/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
