@@ -181,7 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 endif
 
@@ -254,116 +254,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/xiaomi/hm2014811/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/xiaomi/hm2014811/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_bt.so:system/vendor/lib/mmi_bt.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_gsensor.so:system/vendor/lib/mmi_gsensor.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_gyroscope.so:system/vendor/lib/mmi_gyroscope.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_loopback.so:system/vendor/lib/mmi_loopback.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_msensor.so:system/vendor/lib/mmi_msensor.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_torch.so:system/vendor/lib/mmi_torch.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_touchext.so:system/vendor/lib/mmi_touchext.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_touchpanel.so:system/vendor/lib/mmi_touchpanel.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_usb_otg.so:system/vendor/lib/mmi_usb_otg.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libFaceDeform.so:system/vendor/lib/libFaceDeform.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libImageRemovalCloningJNI.so:system/vendor/lib/libImageRemovalCloningJNI.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libomx_amrdec_sharedlibrary.so:system/vendor/lib/libomx_amrdec_sharedlibrary.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libomx_amrenc_sharedlibrary.so:system/vendor/lib/libomx_amrenc_sharedlibrary.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libomx_sharedlibrary.so:system/vendor/lib/libomx_sharedlibrary.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/xiaomi/hm2014811/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
