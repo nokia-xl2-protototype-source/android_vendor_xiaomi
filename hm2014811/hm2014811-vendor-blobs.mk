@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
+    vendor/xiaomi/hm2014811/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
