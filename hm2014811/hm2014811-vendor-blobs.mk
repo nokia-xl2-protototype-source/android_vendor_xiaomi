@@ -123,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/xiaomi/hm2014811/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -181,7 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/xiaomi/hm2014811/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 endif
 
@@ -255,5 +253,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
     vendor/xiaomi/hm2014811/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/xiaomi/hm2014811/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko
-    vendor/xiaomi/hm2014811/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+    vendor/xiaomi/hm2014811/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/xiaomi/hm2014811/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin
